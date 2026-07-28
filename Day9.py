@@ -33,3 +33,7 @@ print (word.index("o"))
 # Count keyword
 wn = "cheese"
 print (wn.count("e"))
+
+# Start keyword
+Z = "banana" 
+print (Z.startswith("ban")) 
