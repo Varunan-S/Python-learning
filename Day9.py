@@ -25,3 +25,7 @@ print ("-".join(alpha))
 # find keyword
 word = "youth"
 print (word.find("u"))
+
+# Index keyword
+word = "Python"
+print (word.index("o"))
