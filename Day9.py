@@ -21,3 +21,7 @@ print (k.split())
 # Join
 alpha = ["B", "A", "T"]
 print ("-".join(alpha))
+
+# find keyword
+word = "youth"
+print (word.find("u"))
