@@ -1,0 +1,10 @@
+a = 20
+b = 30
+addition = a + b
+subtraction = a - b
+multiplication = a * b
+division = a/b
+print ("Addition of 2 numbers =", addition,)  
+print ("Subtraction of 2 numbers =", subtraction)
+print ("Multiplication of 2 numbers =", multiplication)
+print ("Division of 2 numbers =", division)
