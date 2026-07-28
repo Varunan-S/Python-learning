@@ -29,3 +29,7 @@ print (word.find("u"))
 # Index keyword
 word = "Python"
 print (word.index("o"))
+
+# Count keyword
+wn = "cheese"
+print (wn.count("e"))
