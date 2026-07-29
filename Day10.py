@@ -34,3 +34,15 @@ print ("Hi" + name)
 name = "Varun"
 age = 15
 print ("my name is {} and my age is {}".format(name, age))
+
+# f string
+name = "kaleb"
+age = 18
+print (f"my name is {name} and I am {age} yeards old")
+
+# building functioms
+text = "Python" 
+print (len (text))
+print (max (text))
+print (min (text))
+print (sorted (text))
