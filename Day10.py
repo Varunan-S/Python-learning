@@ -25,3 +25,12 @@ print ("  ".isspace())
 
 # escapecharacters
 print ("i\n am\n Varunan")
+
+# string formatting
+name = "Varun"
+print ("Hi" + name)
+
+# Format
+name = "Varun"
+age = 15
+print ("my name is {} and my age is {}".format(name, age))
