@@ -30,10 +30,15 @@ text = "two word"
 print (text.replace(" ", ""))
 
 # remove duplicate char.
-t = input ()
+t ="karrupui"
 result = ""
 for i in t:
     if i not in result:
         result += i
 
 print (result)
+
+# count each character
+x = input()
+for i in set(x):
+    print (i,x.count(i))
