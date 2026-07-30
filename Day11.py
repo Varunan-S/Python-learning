@@ -28,3 +28,12 @@ print (count)
 # remove spaces
 text = "two word"
 print (text.replace(" ", ""))
+
+# remove duplicate char.
+t = input ()
+result = ""
+for i in t:
+    if i not in result:
+        result += i
+
+print (result)
