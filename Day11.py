@@ -18,9 +18,13 @@ else:
     print ("string is false")
 
 # count vowels
-text = input ("enter the string: ")
+text = "lake"
 count = 0
 for i in text:
     if i in "aeiouAEIOU":
         count += 1
 print (count)
+
+# remove spaces
+text = "two word"
+print (text.replace(" ", ""))
