@@ -37,3 +37,18 @@ print (a)
 Blasphemous = [3, 7, 8]
 Blasphemous.remove(7)
 print (Blasphemous)
+
+# pop
+s = [34, 78, 21]
+s.pop()
+print (s)
+
+# del
+d = [1,2,3,4]
+del d[2]
+print (d)
+
+# clear
+c = [1,2,3]
+c.clear(1)
+print (c)
