@@ -21,3 +21,19 @@ print (chest)
 num = [3, 9, 0, 1]
 num.append(3)
 print (num)
+
+# insert
+xylophone = [2, 4, 5]
+xylophone.insert(4,3)
+print (xylophone)
+
+# extend
+a = [1,2]
+b = [3,4]
+a.extend(b)
+print (a)
+
+# removing elements
+Blasphemous = [3, 7, 8]
+Blasphemous.remove(7)
+print (Blasphemous)
