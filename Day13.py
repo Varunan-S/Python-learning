@@ -25,7 +25,7 @@ y = [1,2,3]
 y.reverse()
 print (y)
 
-# List lenght
+# List length
 T = [1,2,3]
 print (len(T))
 
@@ -33,3 +33,12 @@ print (len(T))
 fruits = ["Strawberry", "Lemon"]
 print ("Lemon" in fruits)
 print ("Mango" in fruits)
+
+#List looping
+n = [1,2,3,4,5,6,7,8,9]
+for num in n:
+    print (n)
+
+# Using Index
+for i in range (len(n)):
+    print (i,n[i])
