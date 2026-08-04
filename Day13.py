@@ -13,3 +13,23 @@ a.sort()
 print (a)
 a.sort(reverse=True)
 print (a)
+
+# Sorted
+x = [4,1,3]
+new = sorted(x)
+print (new)
+print (x)
+
+# Reverse a program
+y = [1,2,3]
+y.reverse()
+print (y)
+
+# List lenght
+T = [1,2,3]
+print (len(T))
+
+# membership
+fruits = ["Strawberry", "Lemon"]
+print ("Lemon" in fruits)
+print ("Mango" in fruits)
