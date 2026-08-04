@@ -42,3 +42,16 @@ for num in n:
 # Using Index
 for i in range (len(n)):
     print (i,n[i])
+
+# Copy list
+a = [1,2,3]
+b = a.copy()
+print (b)
+
+# list concarcenation
+a = [1,2]
+b = [3,4]
+print (a + b)
+
+# list repitation
+print ([1,2]*3)
