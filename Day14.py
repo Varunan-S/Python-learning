@@ -18,3 +18,11 @@ print (s)
 n = [10, 20, 31]
 a = sum (n) / len (n)
 print (a)
+
+# Remove duplicates
+n = [1,2,2,3,4,4]
+u = []
+for i in n:
+    if i not in u:
+        u.append(i)
+print (u)
