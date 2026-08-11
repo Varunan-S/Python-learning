@@ -17,3 +17,8 @@ print(G)
 x = {5, 9, 1}
 x.update([10, 7, 2])
 print(x)
+
+# removing elements
+y = {7, 8, 9, 6}
+y.remove(9)
+print(y)
