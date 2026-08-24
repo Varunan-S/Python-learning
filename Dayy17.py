@@ -8,3 +8,6 @@ print (clas)
 
 # Accesing dictionary values
 print (clas["name"])
+
+# Get keyword
+print (clas.get("age"))
