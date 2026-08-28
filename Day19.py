@@ -19,3 +19,9 @@ def cor(n,m):
     print(n+m)
 
 cor(7,8)
+
+# Return
+def add(a,b):
+    return a+b
+add(8,9)
+
