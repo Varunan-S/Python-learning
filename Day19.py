@@ -13,3 +13,9 @@ def lap(n):
 
 lap("Varun")
 lap("Arun")
+
+# Multiple Parameters
+def cor(n,m):
+    print(n+m)
+
+cor(7,8)
