@@ -17,3 +17,16 @@ def ball(r):
         print(i)
 
 ball(5)
+
+# function with dictionary
+student = {"name": "alex",
+           "age": 14,
+           "grade" 9}
+
+def j(student):
+    return student["name"]
+
+print(j(student))
+
+# functions with Local variables
+ 
