@@ -6,3 +6,8 @@ try:
     print(a/b)
 except:
     print("error expected")
+try:
+    age = int(input("enter the age"))
+    print(age)
+except:
+    print("Please enter a valid number")
