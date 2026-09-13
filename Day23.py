@@ -13,11 +13,18 @@
 #    print("Please enter a valid number")
 
 # Multiple exception handling
+#try:
+   # a = int(input("Number required"))
+  #  b = int(input("Number required"))
+ #   print(a/b)
+#except ValueError:
+ #   print("Numbers only please")
+#except ZeroDivisionError:
+#    print("Cannot be divided by zero")
+
 try:
-    a = int(input("Number required"))
-    b = int(input("Number required"))
-    print(a/b)
+    n = int(input("Numbers needed:"))
 except ValueError:
-    print("Numbers only please")
-except ZeroDivisionError:
-    print("Cannot be divided by zero")
+    print("Invalid")
+else:
+    print("You entered: ",n)
