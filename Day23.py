@@ -22,9 +22,17 @@
 #except ZeroDivisionError:
 #    print("Cannot be divided by zero")
 
+#try:
+ #   n = int(input("Numbers needed:"))
+#except ValueError:
+ #   print("Invalid")
+#else:
+#    print("You entered: ",n)
+
+# Kinetic keyword
 try:
-    n = int(input("Numbers needed:"))
-except ValueError:
-    print("Invalid")
-else:
-    print("You entered: ",n)
+    print(10/0)
+except ZeroDivisionError:
+    print("error")
+finally:
+    print("program completed")
