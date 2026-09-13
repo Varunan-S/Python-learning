@@ -30,9 +30,14 @@
 #    print("You entered: ",n)
 
 # Kinetic keyword
-try:
-    print(10/0)
-except ZeroDivisionError:
-    print("error")
-finally:
-    print("program completed")
+#try:
+#    print(10/0)
+#except ZeroDivisionError:
+#    print("error")
+#finally:
+#    print("program completed")
+
+# raise keyword
+age = 15
+if age < 18:
+    raise ValueError("age must be 18 or above")
